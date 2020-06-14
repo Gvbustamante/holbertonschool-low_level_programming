@@ -14,4 +14,5 @@ printf("%d", a);
 a = a + 1;
 }
 printf("\n");
+return (0);
 }

@@ -15,4 +15,5 @@ putchar(a);
 a++;
 }
 putchar(13);
+return (0);
 }
