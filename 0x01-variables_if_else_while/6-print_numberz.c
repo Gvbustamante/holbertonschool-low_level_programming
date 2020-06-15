@@ -14,6 +14,6 @@ while (a < 58)
 putchar(a);
 a++;
 }
-putchar(13);
+putchar('\n');
 return (0);
 }
