@@ -14,12 +14,12 @@ while (a < 58)
 putchar(a);
 a++;
 }
-a = 97;
-while (a < 103)
+int b = 97;
+while (b < 103)
 {
-putchar(a);
-a++;
+putchar(b);
+b++;
 }
-putchar(13);
+putchar('\n');
 return (0);
 }
