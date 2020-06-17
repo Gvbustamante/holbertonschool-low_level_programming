@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-char Hol[10] = {'H','o','l','b','e','r','t','o','n','\n'};
-for (int i=0; i < 10; i++)
+char Hol[10] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n', '\n'};
+for (int i = 0; i < 10; i++)
 {
 _putchar(Hol[i]);
 }
