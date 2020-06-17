@@ -1,7 +1,7 @@
 /**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
+ * _isalpha - check the code for Holberton School students.
+ * @r : character letter
+ * Return: 1= letter and 0= other character.
  */
 int _isalpha(int r)
 {
