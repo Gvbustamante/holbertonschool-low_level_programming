@@ -1,17 +1,16 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
- * main - 0
- * Description: print Holberton
+ * main - use _putchar
+ * Description: use _putchar to print holberton
  * Return: 0
  */
 int main(void)
 {
-char Hol[10] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
-for (int i = 0; i < 10; i++)
-{
-_putchar(Hol[i]);
-}
+char vectores[] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+int z, i;
+z = sizeof(vectores);
+for (i = 0 ; i < z; i++)
+_putchar(vectores[i]);
 _putchar('\n');
 return (0);
 }
