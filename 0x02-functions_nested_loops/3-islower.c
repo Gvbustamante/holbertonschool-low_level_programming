@@ -1,3 +1,4 @@
+#include "holberton.h"
 /**
  * function that checks for lowercase character.
  * Description: created of fuction _islower 'c'
