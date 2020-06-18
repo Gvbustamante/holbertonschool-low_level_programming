@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main - prueba 3
+ * Return: always 0
+ */
+int main(void)
+{
+int a = 0x00;
+int b = 0x61;
+while (a = 0x00; a <)
+{
+putchar(a);
+a = a + 1;
+}
+while (b = 0x61; b <= 0x66)
+{
+putchar(b);
+b = b + 1;
+}
+putchar('\n');
+return (0);
+}
