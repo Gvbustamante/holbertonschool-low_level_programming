@@ -1,40 +1,17 @@
-#include <holberton.h>
-#include <conio.h>
-#include <stdio.h>
-void jack_bauer(void);
-
-int main(void)
+#include "holberton.h"
+/**
+ * print_last_digit - check the code for Holberton School students.
+ * @r : i
+ * Return: Always i.
+ */
+int print_last_digit(int r)
 {
-  int h, m, s;
-
-  printf( "\n   Introduzca horas: " );
-  scanf( "%d", &h );
-  printf( "\n   Introduzca minutos: " );
-  scanf( "%d", &m );
-  printf( "\n   Introduzca segundos: " );
-  scanf( "%d", &s );
-
-  if ( h >= 0 && h <= 23 && m >= 0 && m <= 59 && s >= 0 && s <= 59 )
-    {
-      s++;
-      if ( s == 60 )
-	{
-	  s = 0;
-	  m++;
-	  if ( m == 60 )
-	    {
-	      m = 0;
-	      h++;
-	      if ( h == 24 )
-		h = 0;
-	    }
-	}
-      printf( "\n   Un segundo despu%cs la hora es: %d:%d:%d", 130, h, m, s );
-    }
-  else
-    printf( "\n   ERROR: La hora es incorrecta." );
-
-  getch(); /* Pausa */
-
-  return 0;
-}   
+int i = r;
+if (r < 0)
+{
+i = (r * -1);
+}
+int j = i % 10;
+_putchar((j + 48));
+return (j);
+}

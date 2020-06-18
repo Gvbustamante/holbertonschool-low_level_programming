@@ -1,0 +1,30 @@
+#include "holberton.h"
+/**
+ * times_table - prints the 9 "times table"
+ *
+ * Return: void
+ */
+void times_table(void)
+{
+int row, col;
+row = 0;
+while (row < 10)
+{
+col = 0;
+while (col < 10)
+{
+if (col * row > 9)
+_putchar(col * row / 10 + '0');
+_putchar(col * row % 10 + '0');
+if (col == 9)
+break;
+_putchar(',');
+_putchar(' ');
+if ((col + 1) * row < 10)
+_putchar(' ');
+col++;
+}
+_putchar('\n');
+row++;
+}
+}
