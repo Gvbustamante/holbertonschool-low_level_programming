@@ -12,6 +12,7 @@ if (r < 0)
 i = (r * -1);
 }
 int j = i % 10;
-_putchar((j + 48));
-return (j);
+int k = j + 48;
+_putchar(k);
+return (k);
 }
