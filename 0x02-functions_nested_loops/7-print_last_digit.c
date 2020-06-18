@@ -1,18 +1,18 @@
 #include "holberton.h"
+
 /**
- * print_last_digit - check the code for Holberton School students.
- * @r : i
- * Return: Always i.
+ * print_last_digit - return last number
+ *
+ * @n: int to put number and find the last numert
+ * Return: Number.
  */
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-int i = r;
-if (r < 0)
-{
-i = (r * -1);
-}
-int j = i % 10;
-int k = j + 48;
-_putchar(k);
-return (k);
+int l, p;
+l = n % 10;
+if (l < 0)
+l = -1 * l;
+p = '0' + l;
+_putchar(p);
+return (l);
 }
