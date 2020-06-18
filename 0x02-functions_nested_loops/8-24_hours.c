@@ -1,17 +1,25 @@
 #include "holberton.h"
+
 /**
- * print_last_digit - check the code for Holberton School students.
- * @r : i
- * Return: Always i.
+ * jack_bauer - prints every minute of the day
+ *
+ * Return: void
  */
-int print_last_digit(int r)
+void jack_bauer(void)
 {
-int i = r;
-if (r < 0)
+int h, m, i, j, k, l;
+for (h = 0 ; h < 24; h++)
+for (m = 0; m < 60; m++)
 {
-i = (r * -1);
+i = h / 10;
+j = h % 10;
+k = m / 10;
+l = m % 10;
+_putchar(i + '0');
+_putchar(j + '0');
+_putchar(':');
+_putchar(k + '0');
+_putchar(l + '0');
+_putchar('\n');
 }
-int j = i % 10;
-_putchar((j + 48));
-return (j);
 }
