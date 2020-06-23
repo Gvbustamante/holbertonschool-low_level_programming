@@ -1,0 +1,42 @@
+// Online C compiler to run C online.
+// Write C code in this online editor and run it.
+
+#include <stdio.h>
+
+int main()
+{
+int i;
+for (i = 1; i <= 100; i++)
+{
+int mul3 = (i % 3);
+int mul5 = (i % 5);
+if (mul3 == 0 && mul5 == 0)
+{
+printf("FizzBuzz");
+}
+else
+{
+if ( mul3 == 0 && mul5 != 0)
+{
+printf("Fizz");
+}
+else
+{
+if (mul3 != 0 && mul5 == 0)
+{
+printf("Buzz");
+}
+else
+{
+printf("%d", i);
+}
+}
+}
+if (i < 100)
+{
+printf(" ");
+}
+}
+printf("\n");
+return (0);
+}
