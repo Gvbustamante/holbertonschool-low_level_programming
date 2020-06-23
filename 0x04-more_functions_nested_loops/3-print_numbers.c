@@ -1,11 +1,13 @@
 #include "holberton.h"
 /**
  * _isdigit - checks for uppercase letters
- * @c: the character to be checked
+ * @i: the character to be checked
  * Return: 1 if uppercase and, 0 otherwise
  */
-int mul(int a, int b)
+void print_numbers(void)
 {
-return ( a * b);
-
+for(int i=48; i < 58;i++){
+putchar(i);
+}
+putchar('\n');
 }
