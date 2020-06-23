@@ -3,6 +3,7 @@
 
 
 #include <stdio.h>
+void print_most_numbers(void);
 int _putchar(char c);
 void print_numbers(void);
 void positive_or_negative(int i);
