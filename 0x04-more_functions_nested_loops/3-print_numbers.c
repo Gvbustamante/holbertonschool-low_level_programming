@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * print_numbers - checks for uppercase letters
- * Return: 1 if uppercase and, 0 otherwise
+ * print_numbers - Write a function that prints the numbers, from 0 to 9,
+ * Return: none
  */
 void print_numbers(void)
 {
