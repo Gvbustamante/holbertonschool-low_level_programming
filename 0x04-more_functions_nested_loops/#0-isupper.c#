@@ -1,0 +1,11 @@
+#include "holberton.h"
+int _supper(int c)
+if (c >= 65) || (c <= 90)
+{
+c = c + 1;
+return (1);
+else()
+{
+return (0);
+}
+}
