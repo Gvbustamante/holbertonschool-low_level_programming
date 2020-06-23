@@ -1,8 +1,9 @@
 #include "holberton.h"
 
 /**
- * print_diagonal - prints most number followd by a new line
+ * print_diagonal - prints diagonal lines
  * @n : parametre
+ * return : none
  */
 void print_diagonal(int n)
 {
