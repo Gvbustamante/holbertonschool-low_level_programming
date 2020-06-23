@@ -1,9 +1,11 @@
-// Online C compiler to run C online.
-// Write C code in this online editor and run it.
-
 #include <stdio.h>
-
-int main()
+/**
+ *  main - int i fizz and buzz Online C compiler to run C online.
+ *  @i : parametre
+ *  Return : 0
+ *  Write C code in this online editor and run it.
+ */
+int main(void)
 {
 int i;
 for (i = 1; i <= 100; i++)
@@ -16,7 +18,7 @@ printf("FizzBuzz");
 }
 else
 {
-if ( mul3 == 0 && mul5 != 0)
+if (mul3 == 0 && mul5 != 0)
 {
 printf("Fizz");
 }

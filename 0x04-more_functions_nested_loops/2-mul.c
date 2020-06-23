@@ -1,11 +1,12 @@
 #include "holberton.h"
 /**
- * _isdigit - checks for uppercase letters
- * @c: the character to be checked
- * Return: 1 if uppercase and, 0 otherwise
+ * mul - checks for uppercase letters
+ * @b: the character to be checked
+ * @a: the character to be checked
+ * Return: a and b
  */
 int mul(int a, int b)
 {
-return ( a * b);
+return (a * b);
 
 }
