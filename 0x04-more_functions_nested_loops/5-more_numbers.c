@@ -11,7 +11,7 @@ for (i = 0; i < 10; i++)
 int num = '0';
 int diez = 0;
 int j;
-for (j = 0; j < 14; j++)
+for (j = 0; j < 15; j++)
 {
 if (diez == 1)
 {
