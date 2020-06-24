@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *  main - int i fizz and buzz Online C compiler to run C online.
- *  @i : parametre
- *  Return : 0
- *  Write C code in this online editor and run it.
+ * main - this program prints the word fizz for multiples of 3, the word
+ * buzz for multiples of 5 and fizzbuzz for multiples of both 3
+ * 3 and 5
+ * Return: 0
  */
 int main(void)
 {
