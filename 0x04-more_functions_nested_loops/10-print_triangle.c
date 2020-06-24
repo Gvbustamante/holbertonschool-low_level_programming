@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * print_triangle - prints size
  * @size: tamaño
