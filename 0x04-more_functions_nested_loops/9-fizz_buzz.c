@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- * main - this program prints the word fizz for multiples of 3, the word
- * buzz for multiples of 5 and fizzbuzz for multiples of both 3
- * 3 and 5
+ * main - this program prints the word fizz for multiples of 3, the word.
  * Return: 0
  */
 int main(void)
