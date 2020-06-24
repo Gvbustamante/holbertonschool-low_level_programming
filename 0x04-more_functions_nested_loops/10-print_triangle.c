@@ -14,14 +14,14 @@ else
 {
 int cant = 1;
 int i;
+int j;
+int k;
 for (i = 0; i < size; i++)
 {
-int j;
 for (j = 0; j < (size - cant); j++)
 {
 _putchar(' ');
 }
-int k;
 for (k = 0; k < cant; k++)
 {
 _putchar('#');
