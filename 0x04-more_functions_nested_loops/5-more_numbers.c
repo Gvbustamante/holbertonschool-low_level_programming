@@ -20,7 +20,7 @@ _putchar('1');
 _putchar(num);
 if (num == '9')
 {
-num = '0';
+num = '/';
 diez = 1;
 }
 num++;
