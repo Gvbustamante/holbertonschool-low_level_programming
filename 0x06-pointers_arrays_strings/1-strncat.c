@@ -9,11 +9,11 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-  int c;
-  int d;
+int c;
+int d;
 
-  c = 0;
-  d = 0;
+c = 0;
+d = 0;
 
 while (dest[c] != '\0')
 {
